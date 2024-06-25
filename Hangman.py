@@ -1,4 +1,3 @@
-#this project is hangman:
 import random
 
 def choose_word(word_list):

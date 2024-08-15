@@ -1,7 +1,7 @@
 import random
 
 def choose_word():
-    words = ["apple", "car", "computer", "program", "python"]
+    words = ["Harry Potter", "Ron Weasley", "Hermione Granger", "Albus Dumbledore", "Severus Snape", "Lord Voldemort", "Tom Riddle", "Draco Malfoy", "Sirius Black", "Rubeus Hagrid", "Minerva McGonagall", "Remus Lupin", "Neville Longbottom", "Luna Lovegood", "Fred and George Weasley", "Ginny Weasley"]
     return random.choice(words)
 
 def display_word(word, guessed_letters):
